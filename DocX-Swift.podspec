@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target  = '10.13'
   s.source_files = 'DocX/**/*.swift'
       
-  s.dependency 'ZIPFoundation', '~> 0.9.16'
+  s.dependency 'ZIPFoundation', '~> 0.9.11'
   s.dependency 'AEXML_DocX' , '~> 4.6.3'
   s.resources = 'DocX/blank'
         
